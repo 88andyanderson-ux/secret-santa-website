@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Secret Santa Draw</h1>
+        <p>Enter the names of everyone participating. Be sure to check the "Adult" box and enter the spouse's name if they have one. <br>Once you've added everyone, click "Start Draw" to find out who you got!</p>
+
+        <form id="santaForm">
+            <div id="participants">
+                </div>
+            <button type="button" id="addParticipant">Add Another Person</button>
+            <button type="submit">Start Draw</button>
+            <label>Email: <input type="email" class="email" required></label>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
